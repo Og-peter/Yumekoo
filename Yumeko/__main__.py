@@ -24,7 +24,7 @@ def load_modules_from_folder(folder_name):
     for filename in os.listdir(folder_path):
         if filename.endswith(".py") and filename != "__init__.py":
             module_name = filename[:-3]
-            module = importlib.import_module(f"Hinata.{folder_name}.{module_name}")
+            module = importlib.import_module(f"Yumeko.{folder_name}.{module_name}")
             __module__ = getattr(module, "__module__", None)
             __help__ = getattr(module, "__help__", None)
             if __module__ and __help__:
