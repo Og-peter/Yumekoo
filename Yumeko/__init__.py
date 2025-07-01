@@ -41,12 +41,12 @@ logging.basicConfig(
 for noisy_logger in ("httpx", "pyrogram", "telethon", "telegram"):
     logging.getLogger(noisy_logger).setLevel(logging.ERROR)
 
-log = logging.getLogger(name)
+log = logging.getLogger(__name__)
 
 # Pyrogram Client
 class App(Client):
-    def init(self):
-        super().init(
+    def __init__(self):
+        super().__init__(
             name=config.BOT_NAME,
             api_id=config.API_ID,
             api_hash=config.API_HASH,
