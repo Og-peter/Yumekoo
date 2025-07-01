@@ -36,8 +36,8 @@ class config:
     
     
     #Database
-    MONGODB_URI = "mongodb://localhost:27017" # Use Local Hosted Or Atlas !!
-    DATABASE_NAME = "Hinata"
+    MONGODB_URI = "mongodb+srv://Seizer:seizer@grapper.ji4ybaw.mongodb.net/?retryWrites=true&w=majority&appName=Grapper" # Use Local Hosted Or Atlas !!
+    DATABASE_NAME = "Seizer"
 
     #API
     ARQ_API_KEY = "RLWCED-WZASYO-AWOLTB-ITBWTP-ARQ"
