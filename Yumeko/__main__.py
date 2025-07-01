@@ -83,8 +83,8 @@ def get_main_menu_buttons():
             )
         ],
         [
-            InlineKeyboardButton("🤝 Sᴜᴘᴘᴏʀᴛ", url=config.https://t.me/BLINDxAYUSH2),
-            InlineKeyboardButton("👤 ᴏᴡɴᴇʀ", user_id=config.6524770736)
+            InlineKeyboardButton("🤝 Sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT_LINK),
+            InlineKeyboardButton("👤 ᴏᴡɴᴇʀ", user_id=config.OWNER_ID)
         ],
         [
             InlineKeyboardButton("🆘 ʜᴇʟᴘ 🆘", callback_data="yumeko_help")
