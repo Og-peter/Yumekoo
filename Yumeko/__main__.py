@@ -4,16 +4,16 @@ import asyncio
 import json
 from pyrogram import idle, filters , Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery , Message
-from Hinata import app, log, telebot, BACKUP_FILE_JSON, ptb, scheduler
+from Yumeko import app, log, telebot, BACKUP_FILE_JSON, ptb, scheduler
 from config import config
-from Hinata.helper.on_start import edit_restart_message, clear_downloads_folder, notify_startup
-from Hinata.admin.roleassign import ensure_owner_is_hokage
-from Hinata.helper.state import initialize_services
-from Hinata.database import setup_indexes, db
-from Hinata.admin.backup import restore_db
+from Yumeko.helper.on_start import edit_restart_message, clear_downloads_folder, notify_startup
+from Yumeko.admin.roleassign import ensure_owner_is_hokage
+from Yumeko.helper.state import initialize_services
+from Yumeko.database import setup_indexes, db
+from Yumeko.admin.backup import restore_db
 from asyncio import sleep
-from Hinata.decorator.save import save 
-from Hinata.decorator.errors import error 
+from Yumeko.decorator.save import save 
+from Yumeko.decorator.errors import error 
 
 MODULES = ["modules", "watchers", "admin", "decorator"]
 LOADED_MODULES = {}
