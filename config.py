@@ -29,10 +29,10 @@ class config:
     DOWNLOAD_LOCATION = "./downloads"
     COMMAND_PREFIXES = ["/" , "!" , "." , "#" , "$" , "%" , "&" , "?"] 
     CMD_STARTERS = "/.!&#%$"
-    STATS_IMG_URL = "https://files.catbox.moe/d69tm0.jpg"
-    START_IMG_URL = "https://files.catbox.moe/wybrme.jpg"
-    HELP_IMG_URL = "https://files.catbox.moe/j3tdbi.jpg"
-    ALIVE_IMG_URL = "https://files.catbox.moe/w4t9cj.jpg"
+    STATS_IMG_URL = "https://files.catbox.moe/g57sip.jpg"
+    START_IMG_URL = "https://files.catbox.moe/g57sip.jpg"
+    HELP_IMG_URL = "https://files.catbox.moe/g57sip.jpg"
+    ALIVE_IMG_URL = "https://files.catbox.moe/g57sip.jpg"
     
     
     #Database
