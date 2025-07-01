@@ -112,7 +112,7 @@ async def start_cmd(_, message : Message):
     await sleep(0.8)
     await x.delete()
     
-    await message.reply_cached_media(file_id = "CAACAgUAAxkBAAJuUGeBadZTdf_CjZY5sg_-DiHVwN6NAAI4FAACMBsIVIcDmYcfk1ruHgQ")    
+    await message.reply_cached_media(file_id = "CAACAgUAAxkBAAIJCmhC_d8Cod8SPgy9JK1tSoRCTcq9AAKRFAACiT6BV0Q94eYxanKjNgQ")    
     
     await sleep(0.2)
     
